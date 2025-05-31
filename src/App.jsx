@@ -1,5 +1,6 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './pages/home'
+import { Private } from './pages/private'
 import './App.css'
 
 function App() {
@@ -7,6 +8,7 @@ function App() {
     <BrowserRouter>
     <Routes>
       <Route index path='/' element={<Home></Home>}></Route>
+      <Route path='/private' element={<Private></Private>}></Route>
     </Routes>
     </BrowserRouter>
   )
