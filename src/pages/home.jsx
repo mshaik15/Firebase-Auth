@@ -54,7 +54,7 @@ export const Home = () => {
                 <fieldset>
                     <ul>
                         <li>
-                            <label htmlFor="email">Email</label>
+                            <label htmlFor="emwail">Email</label>
                             <input type="text" id="email" onChange={handleEmailChange} />
                         </li>
                         <li>
